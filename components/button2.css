@@ -1,0 +1,42 @@
+.button2-container {
+  display: flex;
+  position: relative;
+}
+.button2-button {
+  width: 265px;
+  height: 57px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 30px;
+  justify-content: flex-start;
+  background-color: #000000;
+}
+.button2-text {
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: auto;
+  align-self: center;
+  text-align: center;
+  line-height: 27.5px;
+}
+
+@media(max-width: 991px) {
+  .button2-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+  }
+  .button2-root-class-name {
+    align-self: center;
+  }
+}
+@media(max-width: 767px) {
+  .button2-container {
+    align-items: center;
+    justify-content: center;
+  }
+}

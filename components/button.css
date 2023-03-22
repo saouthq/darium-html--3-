@@ -1,0 +1,26 @@
+.button-container {
+  display: flex;
+  position: relative;
+}
+.button-button {
+  width: 256px;
+  display: flex;
+  padding: 12px 24px;
+  position: relative;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 1);
+}
+.button-text {
+  color: rgba(250, 246, 246, 1);
+  height: auto;
+  align-self: auto;
+  text-align: left;
+  line-height: 27.5px;
+  margin-right: 0;
+  margin-bottom: 0;
+}

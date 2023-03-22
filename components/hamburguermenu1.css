@@ -1,0 +1,20 @@
+.hamburguermenu1-container {
+  display: flex;
+  position: relative;
+}
+.hamburguermenu1-hamburguermenu {
+  width: 64px;
+  height: 64px;
+  z-index: 6;
+  position: relative;
+  text-decoration: none;
+}
+
+@media(max-width: 490px) {
+  .hamburguermenu1-hamburguermenu {
+    align-self: flex-end;
+  }
+  .hamburguermenu1-root-class-name {
+    align-self: flex-end;
+  }
+}

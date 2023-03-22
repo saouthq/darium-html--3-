@@ -1,0 +1,14 @@
+.text-container {
+  display: flex;
+  position: relative;
+}
+.text-text {
+  color: rgba(255, 255, 255, 1);
+  width: 294px;
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 27.5px;
+  margin-right: 0;
+  margin-bottom: 0;
+}

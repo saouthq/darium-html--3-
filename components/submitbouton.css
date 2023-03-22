@@ -1,0 +1,27 @@
+.submitbouton-submitbouton {
+  width: 182px;
+  height: 54px;
+  display: flex;
+  padding: 19px 54px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 105px;
+  justify-content: center;
+  background-color: rgba(127, 128, 215, 1);
+}
+.submitbouton-text {
+  color: rgba(250, 246, 246, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 27.5px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.submitbouton-root-class-name {
+  top: 59px;
+  left: 249.9169921875px;
+  position: absolute;
+}

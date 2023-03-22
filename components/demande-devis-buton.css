@@ -1,0 +1,37 @@
+.demande-devis-buton-container {
+  width: 1138px;
+  height: 193.5px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.demande-devis-buton-bottom {
+  top: 0px;
+  left: 0px;
+  width: 417px;
+  height: 59px;
+  position: absolute;
+}
+.demande-devis-buton-text {
+  top: 15.985610008239746px;
+  color: rgba(255, 255, 255, 1);
+  width: 417px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  align-self: auto;
+  font-style: normal;
+  text-align: center;
+  font-family: Outfit;
+  font-weight: 600px;
+  line-height: 27.5px;
+  font-stretch: normal;
+  text-transform: uppercase;
+}
+.demande-devis-buton-root-class-name {
+  top: 0px;
+  left: -29px;
+  position: absolute;
+}

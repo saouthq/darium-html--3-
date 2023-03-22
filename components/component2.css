@@ -1,0 +1,26 @@
+.component2-container {
+  width: 243px;
+  height: 59px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.component2-rectangle31 {
+  top: 0px;
+  left: 0px;
+  width: 243px;
+  height: 59px;
+  position: absolute;
+}
+.component2-text {
+  top: 16px;
+  color: rgba(255, 255, 255, 1);
+  width: 243px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: center;
+  line-height: 27.5px;
+}

@@ -1,0 +1,11 @@
+.rectangle25-container {
+  display: flex;
+  position: relative;
+}
+.rectangle25-rectangle25 {
+  width: 557px;
+  height: 446px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 24px;
+}

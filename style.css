@@ -1,0 +1,520 @@
+:root {
+  --dl-size-size-100: 100%;
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-butom: 30px;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-default-containerdelogo: rgba(48, 42, 99, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: translateX(0%) !important;
+}
+.Close\ overlay {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  text-decoration: none;
+}
+.SubHeader4 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H35 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H13 {
+  font-size: 61px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.H34 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.LOGO1 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.-LOGO {
+  font-size: 71px;
+  font-family: Outfit;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.-H2 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+}
+.H32 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H24 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.sousTitre {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.SubHeader2 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.Body3 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.questioninsidecontainer {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Mogra;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.H3 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 27.5px;
+  font-stretch: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.SubHeader1 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.SubHeader3 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H12 {
+  font-size: 61px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.SubHeader6 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H33 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.-H32 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.H22 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Question {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Noto Serif JP;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.H1 {
+  font-size: 61px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.LOGO3 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.LOGO2 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.sousTitre1 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.BOUTON4 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.-H3 {
+  font-size: 23px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 27.5px;
+  letter-spacing: 0.9;
+  text-transform: none;
+  text-decoration: none;
+}
+.BOUTON1 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.Bodytext1 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.H21 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.SubHeader {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.sousTitre2 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H25 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.testpourquestion {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Noto Sans Tai Tham;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.H11 {
+  font-size: 61px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.sousTitre4 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.Body {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.BOUTON2 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H2 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.BOUTON3 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.sousTitre5 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.BOUTON {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+  text-transform: uppercase;
+}
+.LOGO {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Bodytext2 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.-H31 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-transform: none;
+  text-decoration: none;
+}
+.SubHeader7 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Body1 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.SubHeader5 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.H2pageservice {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+}
+.H31 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 27.5px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.H14 {
+  font-size: 61px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.sousTitre3 {
+  font-size: 28px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.-H1 {
+  font-size: 61px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  text-transform: capitalize;
+}
+.Body2 {
+  font-size: 22px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.H26 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.H23 {
+  font-size: 54px;
+  font-style: normal;
+  font-family: Outfit;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Bodytext {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+
+

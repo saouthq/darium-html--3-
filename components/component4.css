@@ -1,0 +1,17 @@
+.component4-container {
+  display: flex;
+  position: relative;
+}
+.component4-image {
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  object-fit: cover;
+  border-radius: 50%;
+}
+@media(max-width: 490px) {
+  .component4-image {
+    width: 76px;
+    height: 23px;
+    border-radius: 0%;
+  }
+}

@@ -1,0 +1,12 @@
+.component-container {
+  width: 420px;
+  display: flex;
+  position: relative;
+}
+.component-image {
+  width: 178px;
+  height: 152px;
+  object-fit: cover;
+  margin-right: 460;
+  text-decoration: none;
+}
